@@ -18,7 +18,7 @@ We can check out this git project and use a soft link to the target directory.
 Usage:
 
 	1. check out the project using: git clone https://github.com/tangqiaoboy/xcode_tool
-	2. cd xcode_tool
+	2. cd setup_snippets
 	3. ./setup_snippets.sh
 
 
