@@ -1,6 +1,5 @@
 // Author: Tang Qiao
 // Date:   2012-3-2
-//
 // The macro is inspired from:
 //     http://www.yifeiyang.net/iphone-development-skills-of-the-debugging-chapter-2-save-the-log/
 
