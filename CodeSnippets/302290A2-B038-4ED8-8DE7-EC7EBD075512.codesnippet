@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zf_if</string>
+	<string>kp_switch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if useHomeComputer
-    
+	<string>#if &lt;#开关名#&gt;
+&lt;#代码部分#&gt;
 #else
-    
+&lt;#代码部分#&gt;
 #endif</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>302290A2-B038-4ED8-8DE7-EC7EBD075512</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>zf_if</string>
+	<string>快速条件编译</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zf_if</string>
+	<string>kp_switch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kWidth-kHeight</string>
+	<string>kp_bgColor</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define kWidth   [UIScreen mainScreen].bounds.size.width
-#define kHeight  [UIScreen mainScreen].bounds.size.height</string>
+	<string>&lt;#控件#&gt;.backgroundColor = [UIColor colorWithRed:&lt;#红色Float#&gt;  green:&lt;#绿色Float#&gt; blue:&lt;#蓝色Float#&gt; alpha:1];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>70D97B37-FF65-4AAD-9C89-404F4ECB50A4</string>
+	<string>4B6EA82C-9F8A-4B4E-81C0-E890736AE20B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>快速获取设备宽高</string>
+	<string>快速设置控件背景颜色</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kWidth-kHeight</string>
+	<string>kp_bgColor</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
