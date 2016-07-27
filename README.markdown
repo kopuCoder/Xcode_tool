@@ -1,5 +1,4 @@
 
- * 再次感谢唐巧大神的分享，有需要者可以看原作者github:https://github.com/tangqiaoboy/xcode_tool
  * 项目基于唐巧大神对Xcode代码块的脚本用于实现个人开发中积累的Xcode代码块
  * 喜欢的亲可以clone到本地安装试试哦！
 
@@ -60,4 +59,4 @@ If you want a json lib, I recommend [JSONKit](https://github.com/johnezang/JSONK
     git clone https://github.com/johnezang/JSONKit.git
     ```
 
-
+ * 再次感谢唐巧大神的分享，有需要者可以看原作者github:https://github.com/tangqiaoboy/xcode_tool
