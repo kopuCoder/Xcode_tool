@@ -10,6 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark ---生命周期---
+- (void)loadView{
+    //Create your own View
+}
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
 }
