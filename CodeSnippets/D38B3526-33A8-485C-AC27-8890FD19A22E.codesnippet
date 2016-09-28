@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>weak_ReactiveCocoa</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#property desc#&gt; */
-@property (nonatomic,weak)&lt;#type#&gt; *  &lt;#name#&gt;;</string>
+	<string>
+    @weakify(self);
+    
+    @strongify(self);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9FE0A165-5A3A-497E-9B3E-8D53D1F68BA9</string>
+	<string>D38B3526-33A8-485C-AC27-8890FD19A22E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weak属性</string>
+	<string>ReactiveCocoa_weak</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak属性</string>
+	<string>ReactiveCocoa_weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

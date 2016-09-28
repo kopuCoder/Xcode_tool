@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>table_cell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@interface &lt;#cellName#&gt;()
+
+@end
+
+@implementation &lt;#cellName#&gt;
+
+NSString * const &lt;#cellName#&gt;ID = &lt;#cellName#&gt;;
+
++ (instancetype)cellWithTableView:(UITableView *)tableView{
+    
+    &lt;#cellName#&gt; * cell = [tableView dequeueReusableCellWithIdentifier:&lt;#cellName#&gt;ID];
+    if(nil == cell){
+        cell = [[&lt;#cellName#&gt; alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:&lt;#cellName#&gt;ID];
+    }
+    return cell;
+}
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(nullable NSString *)reuseIdentifier{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if(self){
+        [self setupSubViews];
+    }
+    return self;
+}
+
+- (void)setupSubViews{
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>84878B2A-EC16-4B8A-B9AF-539EC5B36FAE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tableView_自定义cell</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableView_自定义cell</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
