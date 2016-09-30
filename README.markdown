@@ -1,6 +1,11 @@
+> 项目基于唐巧大神对Xcode代码块的脚本用于实现个人开发中积累的Xcode代码块
 
- * 项目基于唐巧大神对Xcode代码块的脚本用于实现个人开发中积累的Xcode代码块
- * 喜欢的亲可以clone到本地安装试试哦！
+ 1、喜欢的亲可以按照以下步骤clone到本地安装试试哦！
+ 
+
+	1. check out the project using: git clone https://github.com/kopuCoder/Xcode_tool.git
+	2. cd setup_snippets
+	3. ./setup_snippets.sh
 
 The xcode tool project is planed to be a collection of xcode tools.
 
@@ -16,7 +21,7 @@ We can check out this git project and use a soft link to the target directory.
 
 Usage:
 
-	1. check out the project using: git clone https://github.com/tangqiaoboy/xcode_tool
+	1. check out the project using: git clone https://github.com/kopuCoder/Xcode_tool.git
 	2. cd setup_snippets
 	3. ./setup_snippets.sh
 
