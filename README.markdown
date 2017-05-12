@@ -7,6 +7,13 @@
 	2. cd setup_snippets
 	3. ./setup_snippets.sh
 
+ 2、代码中有：clear\_derived\_data.sh脚本，该脚本是用于清理Xcode的DerivedData文件夹，平时找不到DerivedData文件夹的同学，可以直接运行这个脚本，直接清理掉(对Xcode无任何影响),执行脚本`./clear_derived_data.sh`回车即可:
+ 
+ 	1.打开terminal,然后进入到clear_derived_data.sh所在目录
+ 	2.运行脚本,即可,执行方式: ./clear_derived_data.sh
+ 	3.推荐一种简便的操作方式，将该脚本直接放在用户目录下(即：/Users/yourUserName),这么做的话，主要是为了方便:打开terminal就能直接调用脚本，而不用每次都cd到某个特定的目录下去执行该脚本
+ 	
+***
 The xcode tool project is planed to be a collection of xcode tools.
 
 Now, it contains the following tools:

@@ -2,5 +2,5 @@
 
 cd ~/Library/Developer/Xcode/DerivedData
 rm -rf *
-echo "done"
+echo "DerivedData folder has been cleared..."
 
