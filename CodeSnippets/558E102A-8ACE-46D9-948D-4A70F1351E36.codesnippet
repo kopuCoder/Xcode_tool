@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak_type</string>
+	<string>hDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> 
-    __weak typeof(self)weakSelf = self;
-    __strong __typeof(weakSelf)strongSelf = weakSelf;</string>
+	<string>@protocol &lt;#viewType#&gt;Delegate &lt;kp_BaseViewDelegate&gt;
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0936476D-8733-4861-B794-E34056E4DB1D</string>
+	<string>558E102A-8ACE-46D9-948D-4A70F1351E36</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weak_预防block循环引用</string>
+	<string>.h文件的delegete</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak_type</string>
+	<string>.h文件的delegete</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
