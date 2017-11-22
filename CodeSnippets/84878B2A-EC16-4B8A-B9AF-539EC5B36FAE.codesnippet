@@ -30,6 +30,7 @@ NSString * const &lt;#cellName#&gt;ID = &lt;#cellName#&gt;;
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if(self){
         [self setupSubViews];
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return self;
 }

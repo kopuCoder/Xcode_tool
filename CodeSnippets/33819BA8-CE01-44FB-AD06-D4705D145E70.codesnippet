@@ -9,7 +9,10 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#className#&gt;()
+	<string>@protocol &lt;#className#&gt;Delegate &lt;kp_BaseViewDelegate&gt;
+@end
+
+@interface &lt;#className#&gt;()
 @property (nonatomic,weak)id&lt;&lt;#delegateName#&gt;&gt;delegate;
 
 @end
@@ -17,7 +20,9 @@
 @implementation &lt;#className#&gt;
 +(instancetype)mainViewWithDelegate:(id&lt;&lt;#delegateName#&gt;&gt;)delegate{
  
-    return nil;
+    &lt;#className#&gt; * mainView = [[&lt;#className#&gt; alloc] initWithFrame:CGRectMake(0, 0, kWidth, kHeight - kNavBarH)];
+    mainView.delegate = delegate;
+    return mainView;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
