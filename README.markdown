@@ -71,4 +71,4 @@ If you want a json lib, I recommend [JSONKit](https://github.com/johnezang/JSONK
     git clone https://github.com/johnezang/JSONKit.git
     ```
 
- * 再次感谢唐巧大神的分享，如果感觉不过瘾，可以去看下原作者gihub:github:https://github.com/tangqiaoboy/xcode_tool
+ * 再次感谢唐巧大神的分享，如果感觉不过瘾，可以去看下原作者github:https://github.com/tangqiaoboy/xcode_tool
