@@ -11,7 +11,7 @@
  
  	1.打开terminal,然后进入到clear_derived_data.sh所在目录
  	2.运行脚本,即可,执行方式: ./clear_derived_data.sh
- 	3.推荐一种简便的操作方式，将该脚本直接放在用户目录下(即：/Users/yourUserName),这么做的话，主要是为了方便:打开terminal就能直接调用脚本，而不用每次都cd到某个特定的目录下去执行该脚本
+ 	3.推荐一种简便的操作方式，将该脚本直接放在用户目录下(即：/Users/你的用户名),这么做的话，主要是为了方便:打开terminal就能直接调用脚本，而不用每次都cd到某个特定的目录下去执行该脚本
  	
 ***
 The xcode tool project is planed to be a collection of xcode tools.
@@ -71,4 +71,4 @@ If you want a json lib, I recommend [JSONKit](https://github.com/johnezang/JSONK
     git clone https://github.com/johnezang/JSONKit.git
     ```
 
- * 再次感谢唐巧大神的分享，有需要者可以看原作者github:https://github.com/tangqiaoboy/xcode_tool
+ * 再次感谢唐巧大神的分享，如果感觉不过瘾，可以去看下原作者gihub:github:https://github.com/tangqiaoboy/xcode_tool
