@@ -10,6 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@protocol &lt;#viewType#&gt;Delegate &lt;kp_BaseViewDelegate&gt;
+
 @end</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>558E102A-8ACE-46D9-948D-4A70F1351E36</string>
