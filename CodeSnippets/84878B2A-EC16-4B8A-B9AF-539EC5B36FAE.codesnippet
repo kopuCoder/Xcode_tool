@@ -9,19 +9,22 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#cellName#&gt;()
+	<string>NSString * const &lt;#cellname#&gt;ID = @"&lt;#cellName#&gt;";
+#define kCurrentCell   &lt;#cellName#&gt;
+#define kCurrentCellID &lt;#cellName#&gt;ID
+
+
+@interface kCurrentCell()
 
 @end
 
-@implementation &lt;#cellName#&gt;
-
-NSString * const &lt;#cellName#&gt;ID = &lt;#cellName#&gt;;
+@implementation kCurrentCell
 
 + (instancetype)cellWithTableView:(UITableView *)tableView{
     
-    &lt;#cellName#&gt; * cell = [tableView dequeueReusableCellWithIdentifier:&lt;#cellName#&gt;ID];
+    kCurrentCell * cell = [tableView dequeueReusableCellWithIdentifier:kCurrentCellID];
     if(nil == cell){
-        cell = [[&lt;#cellName#&gt; alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:&lt;#cellName#&gt;ID];
+        cell = [[kCurrentCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCurrentCellID];
     }
     return cell;
 }
@@ -37,7 +40,13 @@ NSString * const &lt;#cellName#&gt;ID = &lt;#cellName#&gt;;
 
 - (void)setupSubViews{
     
-}</string>
+}
+
+- (void)updateConstraints{
+    [super updateConstraints];
+}
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>84878B2A-EC16-4B8A-B9AF-539EC5B36FAE</string>
 	<key>IDECodeSnippetLanguage</key>

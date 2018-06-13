@@ -12,9 +12,6 @@
 	<string>#define kCurrentView &lt;#view#&gt;
 #define kCurrentViewDelegate &lt;#view#&gt;Delegate
 
-@protocol kCurrentViewDelegate &lt;kp_BaseViewDelegate&gt;
-@end
-
 @interface kCurrentView()
 @property (nonatomic,weak)id&lt;kCurrentViewDelegate&gt;delegate;
 

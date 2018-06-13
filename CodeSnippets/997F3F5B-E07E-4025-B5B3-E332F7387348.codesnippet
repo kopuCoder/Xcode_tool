@@ -9,7 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic,strong)NSMutableArray *  &lt;##&gt;;</string>
+	<string>@property (nonatomic,strong)NSMutableArray *  &lt;##&gt;;
+- (NSMutableArray *)dataArray{
+    if (!_dataArray) {
+        _dataArray = [[NSMutableArray alloc] init];
+    }
+    return _dataArray;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>997F3F5B-E07E-4025-B5B3-E332F7387348</string>
 	<key>IDECodeSnippetLanguage</key>
