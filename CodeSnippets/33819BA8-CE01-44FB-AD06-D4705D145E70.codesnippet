@@ -50,9 +50,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>自定义控件</string>
+	<string>view_custom:自定义控件</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>自定义控件</string>
+	<string>view_custom:自定义控件</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

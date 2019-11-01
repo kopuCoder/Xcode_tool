@@ -3,25 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>log_custom</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#property desc#&gt;*/
-@property (nonatomic,strong)&lt;#type#&gt; * &lt;#name#&gt;;</string>
+	<string>NSLog(@"\n\n******&lt;#desc#&gt;:******\n%@\n",&lt;#class#&gt;);
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5624487A-AE47-4799-866D-F660C023D0B4</string>
+	<string>0EC16D10-4371-48EA-A9EA-E85EC7B8AB95</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>strong_属性申明</string>
+	<string>NSLog_系统日志打印</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strong_属性申明</string>
+	<string>NSLog_系统日志打印</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

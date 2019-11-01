@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@protocol &lt;#viewType#&gt;Delegate &lt;kp_BaseViewDelegate&gt;
+	<string>@protocol &lt;#viewType#&gt;Delegate &lt;&lt;#BaseDelegate#&gt;&gt;
 
 @end</string>
 	<key>IDECodeSnippetIdentifier</key>
